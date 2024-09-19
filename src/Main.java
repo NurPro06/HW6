@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        // Создание экземпляра босса
+
         Weapon bossWeapon = new Weapon(WeaponType.SWORD, "Excalibur");
         Boss boss = new Boss(900, 125, bossWeapon);
         boss.printInfo();
